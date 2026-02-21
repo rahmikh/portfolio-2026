@@ -16,7 +16,7 @@ const SertifikatPage = ({ onClose }) => {
   };
 
   const playClickSound = () => {
-    const audio = new Audio("../public/click.mp3");
+    const audio = new Audio("/click.mp3");
     audio.volume = 0.4;
     audio.play();
   };

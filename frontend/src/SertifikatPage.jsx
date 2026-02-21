@@ -85,7 +85,7 @@ const SertifikatPage = ({ onClose }) => {
         }}
         className="bg-linear-to-b from-[#C89B5A] via-[#A87434] to-[#7A4E1D]
         border-2 border-[#5B3A16] rounded-3xl shadow-black/40 shadow-2xl
-        w-4/5 h-[80vh]"
+        w-[90%] md:w-4/5 h-[90%] md:h-4/5"
       >
         <div className="relative w-full h-full border-l-4 border-t-4 border-white/30 rounded-3xl flex flex-col overflow-hidden min-h-0">
           
@@ -142,13 +142,13 @@ const SertifikatPage = ({ onClose }) => {
                 {sertifikatData[index].description}
               </p>
 
-              <div className="flex justify-between mt-8">
+              <div className="flex justify-between mt-8 w-full">
                 <button
                   onClick={handleClickPrev}
                   disabled={index === 0}
-                  className={`px-8 py-2 rounded-full font-bold
+                  className={`px-4 md:px-8 py-2 rounded-full font-bold
                   bg-linear-to-b from-yellow-200 via-yellow-400 to-yellow-500
-                  border-2 border-yellow-600 text-[#5C3B00]
+                  border-2 border-yellow-600 text-[#5C3B00] text-sm md:text-base lg:text-base
                   transition-all duration-200
                   ${
                     index === 0
@@ -162,9 +162,9 @@ const SertifikatPage = ({ onClose }) => {
                 <button
                   onClick={handleClickNext}
                   disabled={index === sertifikatData.length - 1}
-                  className={`px-8 py-2 rounded-full font-bold
+                  className={`px-4 md:px-8 py-2 rounded-full font-bold
                   bg-linear-to-b from-green-300 via-green-500 to-green-600
-                  border-2 border-green-700 text-[#005109]
+                  border-2 border-green-700 text-[#005109] text-sm md:text-base lg:text-base
                   transition-all duration-200
                   ${
                     index === sertifikatData.length - 1

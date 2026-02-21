@@ -81,7 +81,7 @@ const handleNext = () => {
 
       <div className="relative flex flex-col justify-center items-center h-full animate-slideFade">
         
-        <h1 className="text-4xl md:text-5xl font-extrabold text-yellow-300 text-center text-shadow-lg text-shadow-yellow-700">
+        <h1 className="text-4xl md:text-5xl px-6 md:px-0 lg:px-0 font-extrabold text-yellow-300 text-center text-shadow-lg text-shadow-yellow-700">
           Let’s see my project!
         </h1>
 

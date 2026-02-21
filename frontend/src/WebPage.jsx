@@ -50,7 +50,7 @@ const WebPage = ({ onClose }) => {
         }}
         className="bg-linear-to-b from-[#C89B5A] via-[#A87434] to-[#7A4E1D]
         border-2 border-[#5B3A16] rounded-3xl shadow-black/40 shadow-2xl
-        w-4/5 h-4/5"
+        w-[90%] md:w-4/5 h-[90%] md:h-4/5"
       >
         <div className="relative w-full h-full border-l-4 border-t-4 border-white/30 rounded-3xl flex flex-col">
           
@@ -76,19 +76,17 @@ const WebPage = ({ onClose }) => {
             Website
           </h1>
 
-          <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-8 p-10 min-h-0">
+          <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-8 p-8 md:p-10 min-h-0">
 
             <div className="flex items-center justify-center gap-4">
               <button
                 onClick={handlePrev}
-                className="z-10 p-2 rounded-full 
-                bg-linear-to-b from-yellow-200 via-yellow-400 to-yellow-500
-                border-2 border-yellow-600
-                shadow-sm shadow-black/30
-                hover:scale-110 hover:shadow-xl
-                active:scale-95 transition-all duration-200"
+                className="absolute z-10 left-2 md:left-4 p-2 rounded-full 
+              bg-linear-to-b from-yellow-200 via-yellow-400 to-yellow-500
+              border-2 border-yellow-600
+              hover:scale-110 active:scale-95 transition-all duration-200"
               >
-                <ChevronLeft size={28} className="text-[#5C3B00]" />
+                <ChevronLeft className="text-[#5C3B00]" />
               </button>
 
               <div className="overflow-hidden w-full h-full">
@@ -113,14 +111,12 @@ const WebPage = ({ onClose }) => {
 
               <button
                 onClick={handleNext}
-                className="z-10 p-2 rounded-full 
-                bg-linear-to-b from-green-300 via-green-500 to-green-600
-                border-2 border-green-700
-                shadow-sm shadow-black/30
-                hover:scale-110 hover:shadow-xl
-                active:scale-95 transition-all duration-200"
+                className="absolute right-2 md:right-4 p-2 rounded-full 
+              bg-linear-to-b from-green-300 via-green-500 to-green-600
+              border-2 border-green-700
+              hover:scale-110 active:scale-95 transition-all duration-200"
               >
-                <ChevronRight size={28} className="text-[#005109]" />
+                <ChevronRight className="text-[#005109]" />
               </button>
             </div>
 

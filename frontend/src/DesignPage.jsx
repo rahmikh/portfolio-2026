@@ -87,7 +87,7 @@ const DesignPage = ({ onClose }) => {
             }}
         className="bg-linear-to-b from-[#C89B5A] via-[#A87434] to-[#7A4E1D]
         border-2 border-[#5B3A16] rounded-3xl shadow-black/40 shadow-2xl
-        w-[95%] md:w-4/5 h-[90%] md:h-4/5"
+        w-[90%]  md:w-4/5 h-[70%] md:h-4/5"
       >
         <div className="relative w-full h-full border-l-4 border-t-4 border-white/30 rounded-3xl flex flex-col">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3/4 h-1/2 bg-[#FFD700]/20 rounded-full blur-3xl pointer-events-none"></div>
@@ -158,7 +158,7 @@ const DesignPage = ({ onClose }) => {
                 </div>
               </div>
 
-              <div className="flex gap-3 mt-6 md:mt-8">
+              <div className="flex gap-3 mt-2 md:mt-8">
                 {slides.map((_, i) => (
                   <div
                     key={i}

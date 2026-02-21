@@ -134,7 +134,7 @@ const DesignPage = ({ onClose }) => {
                       className="min-w-full flex justify-center items-center"
                     >
                       <div
-                        className={`grid gap-6 ${
+                        className={`grid gap-2 md:gap-6 ${
                           isMobile
                             ? "grid-cols-2"
                             : "grid-cols-2 md:grid-cols-4"

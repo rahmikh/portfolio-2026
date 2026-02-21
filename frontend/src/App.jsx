@@ -14,7 +14,7 @@ function App() {
       style={{ backgroundImage: "url('/bg.png')" }}
     >
       <div className="absolute inset-0 bg-black/5"></div>
-      <div className="relative z-10 flex flex-col items-center justify-center h-full w-full pb-10">
+      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen w-full pb-10">
         <div className="top-0 left-0 bottom-0 w-full h-full flex items-center justify-center">
           <img src={logo} alt="Logo" className="w-full md:w-1/2 lg:w-1/2 object-contain animate-float" />
         </div>

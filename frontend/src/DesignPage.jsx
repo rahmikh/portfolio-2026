@@ -31,7 +31,7 @@ const DesignPage = ({ onClose }) => {
   }, []);
 
   const playClickSound = () => {
-    const audio = new Audio("../public/mouse-click.mp3");
+    const audio = new Audio("/mouse-click.mp3");
     audio.volume = 0.5;
     audio.play();
   };

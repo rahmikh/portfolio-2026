@@ -25,13 +25,13 @@ const Project = () => {
   const navigate = useNavigate();
 
   const playClickSound = () => {
-    const audio = new Audio("../public/mouse-click.mp3");
+    const audio = new Audio("/mouse-click.mp3");
     audio.volume = 0.5;
     audio.play();
   };
 
   const playClickSoundCard = () => {
-    const audio = new Audio("../public/click.mp3");
+    const audio = new Audio("/click.mp3");
     audio.volume = 0.4;
     audio.play();
   };

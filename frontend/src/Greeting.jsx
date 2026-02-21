@@ -5,7 +5,7 @@ const Greeting = () => {
   const [index, setIndex] = useState(0);
 
   const playClickSound = () => {
-    const audio = new Audio("../public/click.mp3");
+    const audio = new Audio("/click.mp3");
     audio.volume = 0.4;
     audio.play();
   };

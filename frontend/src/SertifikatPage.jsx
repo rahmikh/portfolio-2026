@@ -10,7 +10,7 @@ const SertifikatPage = ({ onClose }) => {
   const [index, setIndex] = useState(0);
 
   const playClickSoundClose = () => {
-    const audio = new Audio("../public/mouse-click.mp3");
+    const audio = new Audio("/mouse-click.mp3");
     audio.volume = 0.5;
     audio.play();
   };

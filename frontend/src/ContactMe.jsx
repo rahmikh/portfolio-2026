@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 const ContactMe = () => {
   const playClickSound = () => {
-    const audio = new Audio("../public/click.mp3");
+    const audio = new Audio("/click.mp3");
     audio.volume = 0.5; 
     audio.play();
   };
 
   const playClickSoundSubmit = () => {
-    const audio = new Audio("../public/play.mp3");
+    const audio = new Audio("/play.mp3");
     audio.volume = 0.4;
     audio.play();
   };

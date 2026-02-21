@@ -18,7 +18,7 @@ const Profil = () => {
       <div className="absolute inset-0 bg-linear-to-br from-black/30 via-transparent to-black/40"></div>
 
       <div className="relative flex flex-col items-center justify-center w-full min-h-screen">
-        <div className="relative w-5/6 h-[80vh] flex items-center justify-center">
+        <div className="relative w-[90%] md:w-5/6 h-[80vh] flex items-center justify-center">
           <div
             className="absolute w-full h-full translate-x-2 translate-y-2
             bg-[#835320] border-2 border-[#5B3A16] rounded-3xl"
@@ -29,7 +29,7 @@ const Profil = () => {
             bg-linear-to-b from-[#C89B5A] via-[#A87434] to-[#7A4E1D]
             border-2 border-[#D6B485]
             rounded-3xl shadow-2xl shadow-black/50
-            backdrop-blur-md p-6 overflow-hidden"
+            backdrop-blur-md p-2 md:p-6 overflow-hidden"
           >
             <div className="relative w-full h-full min-h-full">
               <div

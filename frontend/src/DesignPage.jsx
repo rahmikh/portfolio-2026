@@ -148,7 +148,7 @@ const DesignPage = ({ onClose }) => {
                             className={`rounded-xl ${
                               slide.type === "story"
                                 ? "h-full w-40 object-cover shadow-md shadow-black/30"
-                                : "h-48 w-48 object-cover shadow-md shadow-black/30"
+                                : "h-42 w-42 md:h-48 md:w-48 lg:h-48 lg:w-48 object-cover shadow-md shadow-black/30"
                             }`}
                           />
                         ))}
@@ -158,7 +158,7 @@ const DesignPage = ({ onClose }) => {
                 </div>
               </div>
 
-              <div className="flex gap-3 mt-2 md:mt-8">
+              <div className="flex gap-3 mt-6 md:mt-8">
                 {slides.map((_, i) => (
                   <div
                     key={i}
